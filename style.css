@@ -20,17 +20,17 @@
 :root{
     --body-font:'Roboto',sans-serif;  
     --big-font-size: 6.25rem;
-    --h2-font-size: 1.25rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
+    --h2-font-size:45px;
+    --normal-font-size:30px;
+    --small-font-size: 15px;
 }
 
 @media screen and (min-width: 768px){
     :root{
         --big-font-size: 10.5rem;
         --h2-font-size: 2rem;
-        --normal-font-size: 1rem;
-        --small-font-size: .875rem;
+        --normal-font-size: 25px;
+        --small-font-size: 20px;
     }
 }
 
@@ -494,5 +494,22 @@ img{
     } 
 }
 
+@media screen and (min-width: 1024px){
+    .a{
+                margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* For tall screens on mobiles y desktop*/
+@media screen and (min-height: 721px) {
+    .a__container {
+        height: 640px;
+    }
+    .a__img {
+        width: 500px;
+        right: 24%;
+    }
+}
 
 
