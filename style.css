@@ -10,19 +10,27 @@
 /*couleur*/
 
 :root{
+    --first-color:#5361ff;
+    --white-color:#fafaff;
+    --dark-color:#2a3b47;
+    --text-color:#697477;
+}
+/*font*/
+
+:root{
     --body-font:'Roboto',sans-serif;  
     --big-font-size: 6.25rem;
-    --h2-font-size: 1.25rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
+    --h2-font-size:45px;
+    --normal-font-size:30px;
+    --small-font-size: 15px;
 }
 
 @media screen and (min-width: 768px){
     :root{
         --big-font-size: 10.5rem;
         --h2-font-size: 2rem;
-        --normal-font-size: 1rem;
-        --small-font-size: .875rem;
+        --normal-font-size: 25px;
+        --small-font-size: 20px;
     }
 }
 
@@ -32,7 +40,9 @@
     --mb-3: 1.5rem;
     --mb-4: 2rem;
 }
+
 /*z-index*/
+
 :root{
     --z-fixed:100;
 }
@@ -446,7 +456,6 @@ img{
         height: 100vh;
         grid-template-rows:1.7fr 1fr;
         row-gap:0;
-        right:100%
     }
     .a__img{
         width: 524px;
@@ -490,8 +499,6 @@ img{
         margin-left: auto;
         margin-right: auto;
     }
-    
-
 }
 
 /* For tall screens on mobiles y desktop*/
@@ -500,8 +507,8 @@ img{
         height: 640px;
     }
     .a__img {
-        width: 1000px;
-        right: 30%;
+        width: 500px;
+        right: 24%;
     }
 }
 
